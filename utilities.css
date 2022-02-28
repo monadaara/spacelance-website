@@ -2,7 +2,15 @@
 {
     max-width:1100px ;
     margin: 0 auto;
-    padding: 0 50px;
+    /* padding: 0 50px; */
+}
+.card
+{
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    padding: 10px;
+    width: auto;
+    border-radius: 5px;
+    text-align: center;
 }
 .flex
 {
@@ -26,6 +34,10 @@
     font-weight: 300;
     height: 40px;
 }
+.bg-light
+{
+    background-color: var(--light-color);
+}
 .btn-primary
 {
     background-color: var(--primary-color);
@@ -47,8 +59,16 @@ input
     width: 250px;
     padding: 10px;
     font-size: 16px;
-    height: 40px;
+    height: 50px;
     align-self: flex-start !important;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+.text-align
+{
+    text-align: right;
 }
 /* font size */
 .lead
@@ -71,7 +91,7 @@ input
 /* margin */
 .my-1
 {
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 .my-2
 {
